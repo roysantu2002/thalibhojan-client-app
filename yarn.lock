@@ -8535,7 +8535,7 @@
   "resolved" "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   "version" "2.6.2"
 
-"next-images@^1.7.0":
+"next-images@^1.8.1":
   "integrity" "sha512-/DoXucQKWkEBT2rCQKtm9bb+KTAnd1vVTLO12lX4oxdiBQa2uqn5vhcMPwKsdJlxNBzwg6EVnddFs3aqcwiiGA=="
   "resolved" "https://registry.npmjs.org/next-images/-/next-images-1.8.1.tgz"
   "version" "1.8.1"
