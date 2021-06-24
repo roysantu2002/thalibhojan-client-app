@@ -3,6 +3,8 @@ const path = require("path");
 const Dotenv = require("dotenv-webpack");
 const withPWA = require("next-pwa");
 const runtimeCaching = require("next-pwa/cache");
+//webpack.functions.js
+const nodeExternals = require("webpack-node-externals");
 
 module.exports = withPWA({
   pwa: {
@@ -10,7 +12,7 @@ module.exports = withPWA({
     runtimeCaching,
   },
   distDir: "build",
-
+  externals: [nodeExternals()],
   experimental: {
     optimizeFonts: true,
     optimizeImages: true,
