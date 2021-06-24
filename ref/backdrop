@@ -1,0 +1,50 @@
+import React from "react";
+import CssBaseline from "@material-ui/core/CssBaseline";
+import Paper from "@material-ui/core/Paper";
+import { withStyles } from "@material-ui/core/styles";
+import Grid from "@material-ui/core/Grid";
+import Backdrop from "@material-ui/core/Backdrop";
+import Button from "@material-ui/core/Button";
+
+const StyledPaper = withStyles({
+  root: {
+    height: 200,
+    position: "relative"
+  }
+})(Paper);
+const LimitedBackdrop = withStyles({
+  root: {
+    position: "absolute",
+    zIndex: 1
+  }
+})(Backdrop);
+export default function App() {
+  const [showBackdrop, setShowBackdrop] = React.useState(false);
+  return (
+    <div>
+      <CssBaseline />
+      <Grid container spacing={2}>
+        <Grid item xs={6}>
+          <StyledPaper>
+            <LimitedBackdrop open={showBackdrop}>
+              <Button onClick={e => setShowBackdrop(!showBackdrop)}>
+                Hide Backdrop
+              </Button>
+            </LimitedBackdrop>
+            <div>
+              Paper 1<br />
+              {!showBackdrop && (
+                <Button onClick={e => setShowBackdrop(!showBackdrop)}>
+                  Show Backdrop
+                </Button>
+              )}
+            </div>
+          </StyledPaper>
+        </Grid>
+        <Grid item xs={6}>
+          <StyledPaper>Paper 2</StyledPaper>
+        </Grid>
+      </Grid>
+    </div>
+  );
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <clipPath id="clip-send">
+      <rect width="50" height="50"/>
+    </clipPath>
+  </defs>
+  <g id="send" clip-path="url(#clip-send)">
+    <g id="send-2" data-name="send" transform="translate(10.032 17.331) rotate(-39)">
+      <path id="Path_1" data-name="Path 1" d="M0,0H27.559V27.559H0Z" fill="none"/>
+      <path id="Path_2" data-name="Path 2" d="M2.011,23.669l24.1-10.335L2.011,3,2,11.038l17.224,2.3L2,15.631Z" transform="translate(0.297 0.445)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

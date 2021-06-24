@@ -1,0 +1,13 @@
+{
+  "_app.js -> react-redux-firebase": {
+    "id": 59251,
+    "files": []
+  },
+  "index.js -> ../components/views/Menus": {
+    "id": 4653,
+    "files": [
+      "static/chunks/5-22158524b3b84066a175.js",
+      "static/chunks/653.4553a06d0eb7634c93fe.js"
+    ]
+  }
+}

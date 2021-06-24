@@ -1,0 +1,71 @@
+//Types should be in const to avoid typos and duplication since it's a string and could be easily miss spelled
+export const ADD_TO_CART = "ADD_TO_CART";
+export const ADD_TO_LOCAL = "ADD_TO_LOCAL";
+export const REMOVE_ITEM = "REMOVE_ITEM";
+export const SUB_QUANTITY = "SUB_QUANTITY";
+export const ADD_QUANTITY = "ADD_QUANTITY";
+export const ADD_SHIPPING = "ADD_SHIPPING";
+export const ADD_QUANTITY_WITH_NUMBER = "ADD_QUANTITY_WITH_NUMBER";
+export const ORDER_FORM = "ORDER_FORM";
+export const CHECKOUT_CHARGE = "CHECKOUT_CHARGE";
+export const RESET_CART = "RESET_CART";
+export const ADD_TO_COMPARE = "ADD_TO_COMPARE";
+export const REMOVE_ITEM_FROM_COMPARE = "REMOVE_ITEM_FROM_COMPARE";
+export const DESTROY_SESSION = "DESTROY_SESSION";
+export const AUTH_INFO_SUCCESS = "AUTH_INFO_SUCCESS";
+
+export const GET_SIGNIN_REQUEST = "GET_SIGNIN_REQUEST";
+export const GET_SIGNIN_SUCCESS = "GET_SIGNIN_SUCCESS";
+export const GET_SIGNIN_ERROR = "GET_SIGNIN_ERROR";
+
+export const GET_SIGNOUT_REQUEST = "GET_SIGNOUT_REQUEST";
+export const GET_SIGNOUT_SUCCESS = "GET_SIGNOUT_SUCCESS";
+export const GET_SIGNOUT_ERROR = "GET_SIGNOUT_ERROR";
+
+export const GET_SIGNUP_REQUEST = "GET_SIGNUP_REQUEST";
+export const GET_SIGNUP_SUCCESS = "GET_SIGNUP_SUCCESS";
+export const GET_SIGNUP_ERROR = "GET_SIGNUP_ERROR";
+
+export const ADD_USER_SUCCESS = "ADD_USER_SUCCESS";
+export const ADD_USER_ERROR = "ADD_USER_ERROR";
+
+export const UPDATE_PROFILE_SUCCESS = "UPDATE_PROFILE_SUCCESS";
+export const UPDATE_PROFILE_ERROR = "UPDATE_PROFILE_ERROR";
+
+export const RESET_PASSWORD = "RESET_PASSWORD";
+export const RESET_PASSWORD_ERROR = "RESET_PASSWORD_ERROR";
+
+export const SHOW_CURRENT_USER_REQUEST = "SHOW_CURRENT_USER_REQUEST";
+export const SHOW_CURRENT_USER_SUCCESS = "SHOW_CURRENT_USER_SUCCESS";
+
+export const FETCH_ALL = "FETCH_ALL";
+export const UPDATE_BOOKING = "UPDATE_BOOKING";
+
+export const FETCH_ORDERS = "FETCH_ORDERS";
+
+export const API_ERROR = "API_ERROR";
+
+export const CREATE_BOOKING = "CREATE_BOOKING";
+export const GET_OUR_LOCATION = "GET_OUR_LOCATION";
+export const UPDATE_ADDESS = "UPDATE_ADDESS";
+export const UPDATE_DATE = "UPDATE_DATE";
+export const UPDATE_TIME = "UPDATE_TIME";
+
+export const SNACKBAR_CLEAR = "SNACKBAR_CLEAR";
+export const SNACKBAR_SUCCESS = "SNACKBAR_SUCCESS";
+export const SNACKBAR_FAILURE = "SNACKBAR_FAILURE";
+export const EDIT_STATUS = "EDIT_STATUS";
+export const SET_ORDERS = "SET_ORDERS";
+
+export const SET_ALL_ORDERS = "SET_ORDERS";
+
+export const LOADING_DATA = "LOADING_DATA";
+export const LOADING_UI = "LOADING_UI";
+export const SIGNUP_SUCCESS = "SIGNUP_SUCCESS";
+export const  SET_ERRORS = "SET_ERRORS";
+export const  CLEAR_ERRORS = "CLEAR_ERRORS";
+export const  SERVER_ERROR = "SERVER_ERROR";
+export const  SERVER_STATUS = "SERVER_STATUS";
+export const  GET_CUSTOMERS_ERROR = "GET_CUSTOMER_ERROR";
+export const  GET_CUSTOMERS = "GET_CUSTOMERS";
+
