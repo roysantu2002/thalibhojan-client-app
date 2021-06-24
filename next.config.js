@@ -11,6 +11,7 @@ module.exports = withPWA({
     dest: "public",
     runtimeCaching,
   },
+  webpack5: true,
   distDir: "build",
   externals: [nodeExternals()],
   experimental: {
@@ -19,20 +20,9 @@ module.exports = withPWA({
   },
 
   generateEtags: false,
-  // Target must be serverless
   target: "serverless",
 
-  webpack: (config) => {
-    // config.resolve.modules.push(path.resolve("./"));
-    config.plugins = config.plugins || [];
-    config.plugins = [
-      ...config.plugins,
-
-      new Dotenv({
-        path: path.join(__dirname, ".env.local"),
-        systemvars: true,
-      }),
-    ];
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     return config;
   },
 });
